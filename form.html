@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Sign Up form</h1>
+        <b>UPSC.prep</b>
+        <br>
+        <br>
+        <form action="form.php">
+            <input type="text " placeholder="First name ">
+            <br>
+            <br>
+            <input type="text " placeholder="Last name ">
+            <br>
+            <br>
+            <b>Age</b>
+            <label for="age1">
+
+                <input type="radio" value=">10" name="Age" id="age1">>10
+            </label>
+            <label for="age2">
+                <input type="radio" value="10-18" name="Age" id="age2">10-18
+            </label>
+            <label for="age3">
+                <input type="radio" value="18-25" name="Age" id="age3">18-25
+            </label>
+            <label for="age4">
+                <input type="radio" value="25<" name="Age" id="age4"> 25< </label>
+                    <br>
+                    <br>
+                    <b>Applying for which UPSC Exam</b>
+                    <br>
+                    <select name="Exam" id="upsc">
+                        <option value="selct">Select</option>
+                        <option value="IAS">IAS</option>
+                        <option value="IPS">IPS</option>
+                        <option value="IFS">IFS</option>
+                        <option value="PCS">PCS</option>
+                        <option value="RO">RO</option>
+                        <option value="other">Others</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <b>Which class you want to join</b>
+                    <br>
+                    <input type="checkbox" name="Offline Classes" id="offline">
+                    <label for="offline">
+                        Offline Classes
+                    </label>
+                    <input type="checkbox" name="Online Classes" id="online">
+                    <label for="online">
+                        Online Classes
+                    </label>
+                    <br>
+                    <br>
+
+                    <textarea name="bio" id="" cols="30" rows="10" placeholder="Explain about yourself"></textarea>
+        </form>
+    </div>
+</body>
+
+</html>
